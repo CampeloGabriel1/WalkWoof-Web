@@ -15,4 +15,9 @@ export class LoginComponent {
   onLogin() {
     console.log('Login:', this.emailOrPhone);
   }
+
+  onGoogleLogin() {
+    console.log('Login com Google iniciado');
+    
+  }
 } 

@@ -7,11 +7,15 @@
 </head>
 <body>
     <div class="login-container">
+        <div class="login-box">
         <h2>Login</h2>
         <form (ngSubmit)="onLogin()">
-          <input type="text" [(ngModel)]="emailOrPhone" name="emailOrPhone" placeholder="Email ou Telefone" required />
-          <button type="submit">Continuar</button>
+          <div>
+            <input type="text" [(ngModel)]="emailOrPhone" name="emailOrPhone" placeholder="Informar e-mail ou telefone" required />
+          </div>
+          <button type="submit" class="login-button">Continuar</button>
         </form>
+        </div>
       </div>
       <p>Hi</p>
 </body>
