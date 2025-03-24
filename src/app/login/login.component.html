@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    </head>
+    
 </head>
 <body>
   <header>
     <div class="header-container">
         <h1>WalkWoof</h1>
-      
+
     </div>
   </header>
     <div class="login-container">
@@ -21,8 +25,13 @@
           </div>
           <button type="submit" class="login-button">Continuar</button>
         </form>
+        <div class="separator">ou</div>
+        <button (click)="onGoogleLogin()" class="google-button">
+          <img src="assets/google-icon.png" alt="google icon" class="google-icon" />
+            Continuar com o Google 
+        </button>
         </div>
       </div>
-      <p>Hi</p>
+      
 </body>
 </html>
